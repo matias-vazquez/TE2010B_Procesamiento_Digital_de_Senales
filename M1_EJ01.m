@@ -26,7 +26,7 @@ N3 = 200;                 % Número total de muestras
 t3 = [0:1/N3:1];          % Puntos en el tiempo
 x3 = A*sin(2*pi*F*t3);    % Función Seno
 subplot(2,2,3);
-plot(t3,x3);
+stem(t3,x3);
 title('Continuous-time, continuous-valued');
 xlabel('Time'); ylabel('Amplitude');
 grid on;
